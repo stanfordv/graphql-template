@@ -1,20 +1,23 @@
 This is an excellent 
-### basic starter template 
+### basic starter template ###
 for making projects with 
 ### Postgres/graphql via docker
 together with 
 ### react and apollo. 
 
+Here is the end result:
+
 ![alt text](https://github.com/stanfordv/graphql-template/blob/master/backend.png)
 ![alt text](https://github.com/stanfordv/graphql-template/blob/master/frontend.png)
 
-The entire backend is set up in a simple docker script. The docker script initial sets up the postgres server on port 5432 and then sets up graphql on 8080. It downloads the Hasura graphical user interface where it is possible create sql tables on the fly and then read those tables via graphql calls. 
 
+The entire backend is set up in a simple docker script. The docker script initially sets up the postgres server on port 5432 and then sets up graphql on 8080. It downloads the Hasura graphical user interface where it is possible create sql tables on the fly and then read those tables via graphql calls. 
 
-### The frontend is initialised from create-react-app. Apollo has been added to make the connection to graphql simple and complete. The code for this is in App.js and components/BookList.js. after npm run start check localhost:3000 . To check that its working, book titles should be shown in the browser.
+The frontend is initialised from create-react-app. Apollo has been added to make the connection to graphql simple and complete. The code for this is in App.js and components/BookList.js. after 
+#### npm run start 
+check localhost:3000. To check that its working, book titles should be shown in the browser here.
 
-
-### If you need some starter sql you can start with this. After running docker-compose up goto localhost:8080 , navigate to DATA > SQL and dump the data below into the sql field there.
+If you need some starter sql you can start with this. After running docker-compose up goto localhost:8080 , navigate to DATA > SQL and dump the data below into the sql field there.
 
 ### Structure
 
