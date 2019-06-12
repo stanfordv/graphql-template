@@ -1,12 +1,19 @@
-This is an excellent basic starter template for making projects with Postgres/graphql together with react and apollo. The entire backend is set up in a simple docker script. The docker script initial sets up the postgres server on port 5432 and then sets up graphql on 8080. It downloads the Hasura graphical user interface where it is possible create sql tables on the fly and then read those tables via graphql calls. 
+This is an excellent 
+### basic starter template 
+for making projects with 
+### Postgres/graphql via docker
+together with 
+### react and apollo. 
+
+The entire backend is set up in a simple docker script. The docker script initial sets up the postgres server on port 5432 and then sets up graphql on 8080. It downloads the Hasura graphical user interface where it is possible create sql tables on the fly and then read those tables via graphql calls. 
 
 
-The frontend is initialised from create-react-app. Apollo has been added to make the connection to graphql simple and complete. The code for this is in App.js and components/BookList.js. 
+### The frontend is initialised from create-react-app. Apollo has been added to make the connection to graphql simple and complete. The code for this is in App.js and components/BookList.js. after npm run start check localhost:3000 . To check that its working, book titles should be shown in the browser.
 
 
-If you need some starter sql you can start with this. After running docker-compose.up goto localhost:8080 , navigate to DATA > SQL and dump it into field there.
+### If you need some starter sql you can start with this. After running docker-compose up goto localhost:8080 , navigate to DATA > SQL and dump the data below into the sql field there.
 
-###
+### Structure
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -52,9 +59,8 @@ ALTER TABLE ONLY public.books
 
 ###
 
-Here is some data for the table:
 
-###
+### Table data
 
 
 SET statement_timeout = 0;
