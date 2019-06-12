@@ -5,6 +5,9 @@ for making projects with
 together with 
 ### react and apollo. 
 
+![alt text](https://github.com/stanfordv/graphql-template/blob/master/backend.png)
+![alt text](https://github.com/stanfordv/graphql-template/blob/master/frontend.png)
+
 The entire backend is set up in a simple docker script. The docker script initial sets up the postgres server on port 5432 and then sets up graphql on 8080. It downloads the Hasura graphical user interface where it is possible create sql tables on the fly and then read those tables via graphql calls. 
 
 
